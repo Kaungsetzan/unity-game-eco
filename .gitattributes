@@ -1,0 +1,29 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+ 
+
+# 使用 Git LFS 管理大文件类型
+# 3D 模型文件
+*.fbx lfs
+*.obj lfs
+*.blend lfs
+
+# 音频文件
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+
+# 视频文件
+*.mp4 lfs
+*.mov lfs
+
+# 图片文件
+*.png lfs
+*.jpg lfs
+*.psd lfs
+
+# 压缩包和 Unity 包文件
+*.zip lfs
+*.unitypackage lfs
+
+# 二进制文件标记为不可修改
+*.dll binary
